@@ -21,3 +21,13 @@
     border-radius: 10px;
     text-align:center;
 }
+
+.rock:hover{
+    background-color:gray;
+}
+.si:hover{
+    background-color:gray;
+}
+.paeper:hover{
+    background-color:gray;
+}
