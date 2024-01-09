@@ -1,0 +1,37 @@
+.rock{
+    border-style: solid;
+    border-radius: 10px;
+    width: 100px;
+    height: auto;
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+
+.rock:hover{
+    background-color: gray;
+}
+
+.si{
+    border-style: solid;
+    width: 100px;
+    border-radius: 10px;
+    height: auto;
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+.si:hover{
+    background-color: gray;}
+
+.paeper{
+    border-style: solid;
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    text-align:center;
+}
+
+.paeper:hover{
+    background-color: gray;
+}
