@@ -1,3 +1,4 @@
+
 function rock(){
     let lee = Math.floor(Math.random()*3);
     if (lee == 1){
