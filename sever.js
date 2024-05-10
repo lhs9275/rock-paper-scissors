@@ -18,5 +18,7 @@ app.get('/MJP',function(req,res){
   res.render('mookjibba.ejs')
 })
 
-
+app.get('/MJP2',function(req,res){
+   res.render('mjp2.ejs')
+})
 app.listen(3000);
