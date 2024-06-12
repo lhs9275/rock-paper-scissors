@@ -7,7 +7,7 @@ function rock(){
     let lee = Math.floor(Math.random()*3);
     let result;
     if (lee == 0){
-        result =`Bot: ${m} \n 다시~`;
+        result =`Bot: ${m} \n 다시`;
     }
     else if (lee == 1){
         result =`Bot: ${j}\n 마이턴`;
@@ -18,6 +18,7 @@ function rock(){
 
 alert(result);
 
+
 $.ajax({
     url: '/updateResult',
     type: 'POST',
@@ -27,6 +28,8 @@ $.ajax({
         window.location.replace("/MJP2");
     }
 });
+
+
 
 };
 

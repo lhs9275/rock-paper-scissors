@@ -27,6 +27,10 @@ app.post('/updateResult', function(req, res) {
     res.sendStatus(200);
 });
 
+app.get('/firstmjp',function(req,res){
+    res.render('firstmjp');
+});
+
 app.get('/MJP2', function(req, res) {
     res.render('mjp2', bot_result_viewer);
 });
