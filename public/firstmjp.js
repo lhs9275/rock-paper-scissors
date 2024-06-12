@@ -14,7 +14,7 @@ function rock(){
         result =`Bot: ${j}\n 마이턴`;
     }
     else if (lee == 2){
-        result =`Bot:${p}\n 피씨턴~`;
+        result =`Bot:${p}\n 피씨턴`;
     }
 
 alert(result);
@@ -67,13 +67,13 @@ function pa(){
     letresult;
     let lee = Math.floor(Math.random()*3);
     if (lee == 0){
-        result=`Bot: ${m} \n  마이턴~`;
+        result=`Bot: ${m} \n  마이턴`;
     }
     else if (lee == 1){
         result =`Bot: ${j}\n 피씨턴`;
     }
     else if (lee == 2){
-        result = `Bot:${p}\n 다시~`;
+        result = `Bot:${p}\n 다시`;
         location.replace("/MJP");
 
     }
